@@ -21,5 +21,4 @@ int main(){
     ob.A::func();
     ob.B::func();
     return 0;
-
 }
