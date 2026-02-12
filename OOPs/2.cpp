@@ -15,6 +15,6 @@ class student{
 };
 int main(){
     student first;
-    cout<<"done is done"<<endl;
+    cout<<"encapsulation is done"<<endl;
     return 0;
 }
