@@ -20,5 +20,5 @@ int main(){
      C ob;
     ob.A::func();
     ob.B::func();
-    return 0;
+    return 0;  
 }
