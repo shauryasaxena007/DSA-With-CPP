@@ -14,9 +14,9 @@ class Node{
     }
     //destructor
     ~Node(){
-        int val = this-> data;
+        int value = this-> data;
      
-        cout<<"free memory : "<< val<<endl;
+        cout<<"free memory of the Node : "<< value<<endl;
     }
 };
 void insertNode(Node* &tail, int element, int d){
