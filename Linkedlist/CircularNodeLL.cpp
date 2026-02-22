@@ -63,7 +63,7 @@ int main(){
 
      insertNode(tail, 2,13);
     print(tail);
-    //   insertNode(tail, 2,12);
-    // print(tail);
+      insertNode(tail, 2,12);
+    print(tail);
     return 0;
 }
