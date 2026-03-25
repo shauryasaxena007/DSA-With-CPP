@@ -12,6 +12,12 @@ int main(){
 
     q.pop_front();
     cout<<q.front()<<endl;
-    
+
+    q.pop_back();
+    cout<<q.back()<<endl;
+
+    if(q.empty()){
+        cout<<"Queue is empty"<<endl;
+    }
     return 0;
 }
