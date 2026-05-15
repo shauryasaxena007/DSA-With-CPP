@@ -10,6 +10,9 @@ int main(){
     else if (isUpper = (Ch=='A' || Ch=='E' || Ch=='I' || Ch=='O' || Ch=='U')){
         cout<<Ch<<" is an uppercase vowel."<<endl;
     }
+    else if(!isalpha(Ch)){
+        cout<<Ch<<" is not an alphabet."<<endl;
+    }
     else{
         cout<<Ch<<" is not a vowel."<<endl;
     }
