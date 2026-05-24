@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n:
+    int n;
     cout<<"Enter a number: ";
     cin>>n;
     bool isPrime = true;
