@@ -6,8 +6,8 @@ int main(){
     cin>>n;
     for(int i =1; i<= n; i++){
         if(n % i == 0){
-            cout<<i<<" ";
+            cout<<"Factor of "<<n<<" is: "<<i<<endl;
         }
     }
-    return 0;
+     return 0;
 }
