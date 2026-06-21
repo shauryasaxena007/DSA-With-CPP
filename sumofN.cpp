@@ -15,7 +15,7 @@ int main(){
     }
     else{
         int sum = findSum(num);
-        cout<<"The sum of first "<<num<<" natural numbers is: "<<sum<<endl;
+        cout<<"The sum of first N numbers "<<num<<" natural numbers is: "<<sum<<endl;
     }
     return 0;
 }
