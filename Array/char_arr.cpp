@@ -6,5 +6,7 @@ int main(){
     cin.getline(name,100);
     cout<<"Hello, "<<name<<"!"<<endl;
     return 0;
-    
+
+    // string para
+    // cin.getline(name,para);
 }
